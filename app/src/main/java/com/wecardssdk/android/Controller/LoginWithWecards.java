@@ -33,13 +33,13 @@ import static com.wecardssdk.android.Utils.getResources.getString;
  */
 
 @Keep
-public class loginWithWecards implements loginWithWecardsHandler {
+public class LoginWithWecards implements loginWithWecardsHandler {
 
     private Activity context;
     private LoginHandler loginHandler;
     private Communicator communicator;
 
-    public loginWithWecards(Activity context, LoginHandler loginListener) {
+    public LoginWithWecards(Activity context, LoginHandler loginListener) {
         this.context = context;
         communicator = new CommunicatorHandler();
         setAppIcon();
