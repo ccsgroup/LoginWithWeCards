@@ -158,7 +158,7 @@
                         android:textSize="@dimen/_12sdp" />
 
 
-                    <com.CCS.LoginWithWeCards.CustomView.CustomBtn
+                    <com.wecardssdk.android.CustomView.CustomBtn
                         android:id="@+id/btnLogin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -260,7 +260,7 @@
                 android:orientation="horizontal"
                 android:padding="@dimen/_10sdp">
 
-                <com.CCS.LoginWithWeCards.CustomView.CustomBtn
+                <com.wecardssdk.android.CustomView.CustomBtn
                     android:id="@+id/btnCancel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -283,7 +283,7 @@
                     custombtn:btnTextColor="@color/blue"
                     custombtn:btnTextPress="@color/blue" />
 
-                <com.CCS.LoginWithWeCards.CustomView.CustomBtn
+                <com.wecardssdk.android.CustomView.CustomBtn
                     android:id="@+id/btnOK"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
